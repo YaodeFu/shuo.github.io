@@ -1,4 +1,4 @@
-<img src="https://github.githubassets.com/assets/mona-loading-default-c3c7aad1282f.gif" width="128">
+<img src="https://github.githubassets.com/assets/mona-loading-default-c3c7aad1282f.gif" width="64">
 
 # 应用和命令解释
 
