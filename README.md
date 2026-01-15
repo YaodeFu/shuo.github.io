@@ -1,4 +1,4 @@
-![喵](https://github.githubassets.com/assets/mona-loading-default-c3c7aad1282f.gif)
+<img src="https://github.githubassets.com/assets/mona-loading-default-c3c7aad1282f.gif" width="128">
 # 应用和命令解释
 
 ## 安装应用：
