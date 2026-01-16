@@ -49,7 +49,7 @@
    * pip换源
    * 安装requests库
 
-   **完整代码（复制，不要长按识图，不要手动打）：**
+   **完整代码（逐行复制粘贴，不要长按识图，不要手动打）：**
    ```bash
    sed -i 's@^\(deb.*stable main\)$@#\1\ndeb https://mirrors.bfsu.edu.cn/termux/termux-packages-24 stable main@' $PREFIX/etc/apt/sources.list &&apt update && apt upgrade
    pkg install python
