@@ -26,6 +26,7 @@
 
 ## pip换源：
 `pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple`
+
 `pip config set global.trusted-host pypi.tuna.tsinghua.edu.cn`
 
 ---
@@ -44,7 +45,9 @@
 
 3. 打开 **Termux**，依次进行：
    * Termux换源
+     
       > 如果执行换源后下载依然很慢，就双击屏幕左边缘，切换源，北京源，即可
+   
    * 安装Python
    * 安装termux-api库
    * pip换源
