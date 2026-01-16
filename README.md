@@ -11,7 +11,7 @@
 * **MT管理器**（可选） - 用于方便地管理手机文件和修改Python源代码
 
 ## Termux换源：
-`sed -i 's@^\(deb.*stable main\)$@#\1\ndeb https://mirrors.bfsu.edu.cn/termux/termux-packages-24 stable main@' $PREFIX/etc/apt/sources.list && apt update && apt upgrade`
+sed -i 's@^\(deb.*stable main\)$@#\1\ndeb https://mirrors.bfsu.edu.cn/termux/termux-packages-24 stable main@' $PREFIX/etc/apt/sources.list &&apt update && apt upgrade
 
 ## 安装termux-api库：
 `pkg install termux-api`
@@ -48,10 +48,10 @@
 
    **完整代码（复制，不要长按识图，不要手动打）：**
    ```bash
-   sed -i 's@^\(deb.*stable main\)$@#\1\ndeb [https://mirrors.bfsu.edu.cn/termux/termux-packages-24](https://mirrors.bfsu.edu.cn/termux/termux-packages-24) stable main@' $PREFIX/etc/apt/sources.list && apt update && apt upgrade
+   sed -i 's@^\(deb.*stable main\)$@#\1\ndeb https://mirrors.bfsu.edu.cn/termux/termux-packages-24 stable main@' $PREFIX/etc/apt/sources.list &&apt update && apt upgrade
    pkg install python
    pkg install termux-api
-   pip config set global.index-url [https://pypi.tuna.tsinghua.edu.cn/simple](https://pypi.tuna.tsinghua.edu.cn/simple)
+   pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
    pip config set global.trusted-host pypi.tuna.tsinghua.edu.cn
    pip install requests
    ```
