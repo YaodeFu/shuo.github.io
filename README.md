@@ -16,7 +16,7 @@ Python官网：[www.python.org](https://www.python.org)
 ---
 
 # 检验Python的安装
-在开始菜单中搜索`命令提示符`，并`以管理员身份运行`，在打开的窗口中输入`python`并回车，若显示类似的提示：
+在开始菜单中搜索`命令提示符`，并`以管理员身份运行`，在打开的窗口中输入`pip`并回车，若显示类似的提示：
 ```
 Usage:
   pip <command> [options]
